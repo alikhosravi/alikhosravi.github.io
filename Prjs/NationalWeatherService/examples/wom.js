@@ -1,0 +1,10 @@
+wm ={clearsky : 'clearsky',
+fewclouds : 'fewclouds',
+scatteredclouds : 'scatteredclouds',
+brokenclouds : 'brokenclouds',
+showerrain : 'showerrain',
+rain : 'rain',
+thunderstorm : 'thunderstorm',
+snow : 'snow',
+mist : 'mist',
+overcastclouds : 'overcastclouds'}
