@@ -1,0 +1,8 @@
+html,
+        body,
+        #map {
+          height: 100%;
+          font: 10pt "Helvetica Neue", Arial, Helvetica, sans-serif;
+          font-family: 'Times';
+          background-color: rgb(255, 255, 255);
+        }
