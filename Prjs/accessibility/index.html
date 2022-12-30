@@ -13,10 +13,14 @@
     <script src="Js/Boundry/Isfahan boundary.js"></script>
     <script src="Js/Distances/Distances.js"></script>
     
+    <style>
+
+    </style>
 
 </head>
 <body>
-    <aside>
+    
+    <aside style="display: none;">
         <svg width="150px" height="150px" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="#f8fb18">
 
             <g id="SVGRepo_bgCarrier" stroke-width="0"/>
@@ -88,6 +92,11 @@
             
         </nav>
     </aside>
+    <div class="container" onclick="collapse()">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
 
     <div id="map"></div>
     <script>
@@ -105,7 +114,19 @@
             DistancesTriger(layer);
             Distances.addTo(map); 
         }
-    
+    </script>
+    <script>
+        function collapse() {
+            if (document.getElementsByTagName('aside')[0].style.display=='') {
+                document.getElementsByTagName('aside')[0].style.display = 'none'
+            } else {
+                document.getElementsByTagName('aside')[0].style.display=''
+            }
+            
+        }
+    </script>
+    <script>
+
     </script>
 </body>
 </html>

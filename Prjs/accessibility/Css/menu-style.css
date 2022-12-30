@@ -5,11 +5,33 @@
   --c-hover: #081018;
 }
 
+.container {
+
+  margin: 3% 0% 00% 2%;
+  display: inline-block;
+  cursor: pointer;
+  position:fixed;
+  z-index: 9999;
+
+}
+
+
+.bar1, .bar2, .bar3 {
+  border-radius: 24px;
+  width: 35px;
+  height: 5px;
+  background-color: rgb(226, 21, 21);
+  margin: 6px 0;
+  transition: 0.4s;
+
+}
+
 aside {
   position:fixed;
   z-index: 9999;
   width: 280px;
   border-radius: 24px;
+  border-top-left-radius: 0px;
   padding: 40px;
   background: var(--c-sidebar);
 }
